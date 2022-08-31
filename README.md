@@ -1,1 +1,1 @@
-A project regarding Shell skills
+Task 0. Where am I?
