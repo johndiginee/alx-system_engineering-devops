@@ -1,4 +1,2 @@
 #!/bin/bash
 groups
-less /etc/group
-id -nG
