@@ -3,8 +3,6 @@
 
 n=1
 
-while [ $n -le 10 ]
-do
-    echo "Best School"
-    ((i++))
+while [ $((n++)) -lt 10 ]; do
+        echo Best School
 done
