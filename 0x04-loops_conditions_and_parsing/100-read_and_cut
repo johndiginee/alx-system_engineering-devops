@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Script that displays contents of /etc/passwd with read n cut
-exec 3< /etc/passwd
-while read -u 3; do
-        echo "$REPLY" | cut -d':' -f1,3,6
-done
+
+myfile="/etc/passwd"
+while IFS= read -r line
+do
+    echo "$line" | cut -d":" -f1,3,6
+done < "$myfile"
