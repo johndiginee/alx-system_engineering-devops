@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # A Bash script that will display information about subdomains
-
 # The variables & parameters
 subdomains=( "www" "lb-01" "web-01" "web-02" )
 domain="$1"
